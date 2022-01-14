@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+.header-title{
+    margin-top: 150px;
+    margin-left: 190px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title-section{
+    font-size: 35px;
+}
+.first-section-left{
+    width:582px;
+    height: 270px;
+
+}
+.first-section-right{
+    margin-left: 100px;
+    background-color: rgba(216, 191, 216, 0.205);
+    border-radius: 50%;
+}
+.button{
+    background-color: #C60D5C;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
