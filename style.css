@@ -2,10 +2,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 .header-title{
     margin-top: 150px;
-    margin-left: 190px;
+    margin-left: 198px;
 }
 .container{
     display: flex;
@@ -72,6 +74,19 @@ hr{
     justify-content: right;
     align-items: center;
     margin-right: 130px;
+    margin-bottom: 100px;
     color: #C60D5C;
     text-decoration: none;
+}
+.footer-part{
+   text-align: center;
+   padding-top: 50px;
+   width: 100%;
+   height: 200px;
+   background-color: #151336;
+   color: white;
+}
+.footer-part p a{
+    text-decoration: none;
+    color: white;
 }
