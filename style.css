@@ -150,6 +150,17 @@ hr{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .first-section-left{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .first-section-right{
+        margin-bottom: 100px;
+       padding-right: 20px;
+       align-items: center;
+       justify-content: center;
+
+    }
     .items{
         grid-template-columns: repeat(1,1fr);
     }
@@ -160,6 +171,7 @@ hr{
         margin-bottom: 50px;
     }
     .review-section{
+        display: grid;
         grid-template-columns: repeat(1,1fr);
     }
     .reviews{
@@ -180,12 +192,20 @@ hr{
         width: 100%;
     }
     .header-title{
+        width: 100%;
         display: flex;
         align-items: center;
     }
     .first-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }
+    .first-section-left{
+        margin-bottom: 100px;
+    }
+    .first-section-right{
+        margin-bottom: 100px;
+
     }
     .items{
         grid-template-columns: repeat(2,1fr);
@@ -197,6 +217,7 @@ hr{
         margin-bottom: 50px;
     }
     .review-section{
+        display: grid;
         grid-template-columns: repeat(2,1fr);
     }
     .reviews{
