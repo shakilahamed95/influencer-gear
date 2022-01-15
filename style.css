@@ -1,3 +1,4 @@
+/* import font from font awesome  */
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@600&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
@@ -19,8 +20,9 @@ body{
     align-items: center;
     margin-bottom: 30px;
 }
+ /* 1st section css  */
 .title-section{
-    font-size: 35px;
+    font-size: 50px;
 }
 .first-section{
     display: flex;
@@ -59,6 +61,7 @@ hr{
     width: 1200px;
     height: 2px;
 }
+ /* item section css  */
 .item-header{
     text-align: center;
     margin-top: 100px;
@@ -85,6 +88,7 @@ hr{
 .fa-star.filled{
     color: #FB8200;
 }
+ /* see more section css  */
 #see-more a{
     display: flex;
     justify-content: right;
@@ -94,6 +98,7 @@ hr{
     color: #C60D5C;
     text-decoration: none;
 }
+/* review section css */
 .review-section{
     display: flex;
     flex-wrap: wrap;
@@ -127,6 +132,7 @@ hr{
     display: block;
     background-color: #1513369a;
 }
+/* footer section css */
 .footer-part{
    text-align: center;
    padding-top: 50px;
@@ -139,6 +145,7 @@ hr{
     text-decoration: none;
     color: white;
 }
+/* responsive section for mobile and small width device  */
 @media only screen and (max-width:688px){
     .container{
         width: 100%;
@@ -146,8 +153,16 @@ hr{
     .header-title{
         text-align: center;
     }
+    .title-section{
+        text-align: center;
+    }
+    .button{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-left: 200px;
+    }
     .first-section{
-        width: 150px;
         text-align: justify;
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -164,13 +179,12 @@ hr{
 
     }
     .items{
+        width: 100%;
         grid-template-columns: repeat(1,1fr);
     }
     .item{
-        flex-direction: column;
-        align-items: center;
         border: 1px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .review-section{
         display: grid;
@@ -189,18 +203,21 @@ hr{
     }
 
 }
+/* responsive  css for tablet and large screen device  */
 @media only screen and (min-width:688px) and (max-width:1080px){
     .container{
         width: 100%;
     }
     .header-title{
-        width: 100%;
-        display: flex;
-        align-items: center;
+    margin-left: 300px;
+        
     }
     .first-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }
+    .title-section{
+        text-align: center;
     }
     .first-section-left{
         margin-bottom: 100px;
@@ -210,6 +227,7 @@ hr{
 
     }
     .items{
+        width: 100%;
         grid-template-columns: repeat(2,1fr);
     }
     .item{
@@ -219,6 +237,7 @@ hr{
         margin-bottom: 50px;
     }
     .review-section{
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
