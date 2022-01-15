@@ -9,6 +9,9 @@ body{
     margin-top: 150px;
     margin-left: 198px;
 }
+.header-title:hover{
+    color:#06025a ;
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -38,6 +41,11 @@ body{
 .button a{
     text-decoration: none;
     color: white;
+}
+.button:hover{
+    background-color: #06025a;
+    width:200px ;
+    transform: scale(1.2);
 }
 hr{
     width: 1200px;
@@ -77,6 +85,39 @@ hr{
     margin-bottom: 100px;
     color: #C60D5C;
     text-decoration: none;
+}
+.review-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.reviews{
+    background-color: #f8eded;
+    width: 300px;
+    height: 320px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.reviewer-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+.review-details{
+    position: absolute;
+    width:300px;
+    top: 0;
+    color: white;
+    display: none;
+
+}
+.reviews:hover .review-details{
+    display: block;
+    background-color: #1513369a;
 }
 .footer-part{
    text-align: center;
