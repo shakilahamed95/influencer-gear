@@ -53,6 +53,7 @@ body{
     background-color: #06025a;
     width:200px ;
     transform: scale(1.2);
+    transition: transform,2s;
 }
 hr{
     width: 1200px;
@@ -143,10 +144,11 @@ hr{
         width: 100%;
     }
     .header-title{
-        display: flex;
-        align-items: center;
+        text-align: center;
     }
     .first-section{
+        width: 150px;
+        text-align: justify;
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
